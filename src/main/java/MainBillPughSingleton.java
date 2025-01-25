@@ -15,6 +15,7 @@ class BillPughSingleton {
     }
 }
 public class MainBillPughSingleton {
+
     public static void main(String[] args) {
         // First call to getInstance() triggers inner class loading and creates the instance
         BillPughSingleton singleton1 = BillPughSingleton.getInstance();
