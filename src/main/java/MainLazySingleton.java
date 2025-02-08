@@ -27,6 +27,7 @@ public class MainLazySingleton {
         LazySingleton singleton1 = LazySingleton.getInstance();
         System.out.println("Singleton 1: " + singleton1);
 
+
         // Subsequent calls return the same instance
         LazySingleton singleton2 = LazySingleton.getInstance();
         System.out.println("Singleton 2: " + singleton2);
