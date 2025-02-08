@@ -17,5 +17,6 @@ public class MainEagerSingleton {
         if (singleton1 == singleton2) {
             System.out.println("Both instances are the same!");
         }
+
     }
 }
