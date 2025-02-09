@@ -20,6 +20,7 @@ class LazySingleton {
         return instance;
     }
 }
+//To raise pr ...
 public class MainLazySingleton {
     public static void main(String[] args) {
         // First call to getInstance() creates the instance
